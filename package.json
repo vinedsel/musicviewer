@@ -1,0 +1,19 @@
+{
+  "name": "musicviewer",
+  "version": "1.0.0",
+  "description": "Back-end SQL project that utilizes SQL injections.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinedsel/musicviewer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinedsel/musicviewer/issues"
+  },
+  "homepage": "https://github.com/vinedsel/musicviewer#readme"
+}
