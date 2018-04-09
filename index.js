@@ -8,7 +8,12 @@ const db = new sqlite3.Database("./Chinook_Sqlite_AutoIncrementPKs.sqlite");
 
 
 
+const query = `SELECT * from Artist LIMIT 100`;
 
+db.each(query, (err, row) => {
+  if (err) throw err;
+  console.log(row);
+});
 
 
 
