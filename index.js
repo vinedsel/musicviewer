@@ -9,7 +9,7 @@ const db = new sqlite3.Database("./Chinook_Sqlite_AutoIncrementPKs.sqlite");
 
 
 
-
+db.close();
 
 
 app.listen( process.env.PORT || 3000, ()=>{
