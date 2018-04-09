@@ -1,10 +1,31 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Viewer</title>
-  </head>
-  <body>
-    <h1>Viewer!</h1>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Viewer</title>
+</head>
+
+<body>
+  <h1>Viewer!</h1>
+  
+    <h1>Artists and Albums</h1>
+    <!-- <p>Go to the <a href='/artistsForm'>Artists Form</a> to add a new Artist</p>
+    <p>Go to the <a href='/lengthForm'>Length Form</a> to sort by song length</p> -->
+</div>
+
+<table>
+    <tr>
+        <th>Artist</th>
+        <th>Album</th>
+    </tr>
+    {{#each results}}
+    <tr>
+        <td>{{Artist}}</td>
+        <td>{{Album}}</td>
+    </tr>
+    {{/each}}
+</table>
+</body>
+
 </html>
